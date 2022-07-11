@@ -3,8 +3,8 @@ function execute_code(){
   
   function alert_one(){ alert('one'); }
   function alert_two(){ alert('two'); }
-  
-  $('.product-form__submit').on('click', function(){
+   
+  document.getElementsByClassName("product-form__submit").addEventListener('click', function(e){
     alert('123')
   });
 
