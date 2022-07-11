@@ -3,6 +3,8 @@ function execute_code(){
   
   function alert_one(){ alert('one'); }
   function alert_two(){ alert('two'); }
+  
+  $('body').append('TEXT APPENDED')
 
   console.log('--- end code execution ---');
 }
