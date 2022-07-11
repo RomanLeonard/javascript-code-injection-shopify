@@ -4,7 +4,9 @@ function execute_code(){
   function alert_one(){ alert('one'); }
   function alert_two(){ alert('two'); }
   
-  $('body').append('TEXT APPENDED')
+  $('.product-form__submit').on('click', function(){
+    alert('123')
+  }
 
   console.log('--- end code execution ---');
 }
