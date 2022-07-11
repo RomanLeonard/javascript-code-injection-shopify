@@ -6,7 +6,7 @@ function execute_code(){
   
   $('.product-form__submit').on('click', function(){
     alert('123')
-  }
+  });
 
   console.log('--- end code execution ---');
 }
