@@ -1,9 +1,10 @@
-console.log('git-script-init')
+function execute_code(){
+  console.log('--- init code execution ---');
+  
+  function alert_one(){ alert('one'); }
+  function alert_two(){ alert('two'); }
 
-function alert_one(){
-  alert('one')
+  console.log('--- end code execution ---');
 }
 
-// alert_one();
-
-var alert_me = alert_one();
+execute_code();
