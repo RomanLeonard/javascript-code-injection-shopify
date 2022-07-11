@@ -8,7 +8,6 @@ function execute_code(){
     alert('123')
   });
 
-  console.log('--- end code execution ---');
 }
 
 execute_code();
